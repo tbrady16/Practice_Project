@@ -60,5 +60,5 @@ A2 = matrix(a, nrow=4, ncol=2, byrow=TRUE)
 # staging is preparing a file for commitment, separates out file changes
 # conflict is when multiple people make changes to the same file
 
-
+# test to see if I can push these changes
 
