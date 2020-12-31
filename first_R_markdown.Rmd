@@ -1,0 +1,52 @@
+---
+title: "First_RMarkdown"
+author: "Travis"
+date: "12/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Header Levels
+### Smaller Header
+
+Using the hashtag designates a header of a certain size, with one hashtag providing the largest and getting incrementally smaller thereafter.
+
+## Code Chunks
+
+Use three backticks followed by squiggly brackets to include code chunks. Shortcuts are CTRL+ALT+I for windows and CMD+option+I for Macs. Insert near the top will also include code chunks for you. Place lowercase r inside brackets then write desired code on new line.
+
+```{r}
+print("Hello World!")
+```
+## Lists
+
+A single dash followed by the words creates bullet points. square brackets are used to include links.
+
+- bullet point
+- **two stars to bold**
+- *one star to italicize*
+- [click here for google](https://google.com)
+
